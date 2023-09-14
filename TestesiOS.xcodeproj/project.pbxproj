@@ -14,19 +14,10 @@
 		FA8B17892AB3B5AB0078BDEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8B17882AB3B5AB0078BDEB /* Assets.xcassets */; };
 		FA8B178C2AB3B5AB0078BDEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8B178A2AB3B5AB0078BDEB /* LaunchScreen.storyboard */; };
 		FA8B17972AB3B5AC0078BDEB /* TestesiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B17962AB3B5AC0078BDEB /* TestesiOSTests.swift */; };
-		FA8B17A12AB3B5AC0078BDEB /* TestesiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B17A02AB3B5AC0078BDEB /* TestesiOSUITests.swift */; };
-		FA8B17A32AB3B5AC0078BDEB /* TestesiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8B17A22AB3B5AC0078BDEB /* TestesiOSUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FA8B17932AB3B5AC0078BDEB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA8B17742AB3B5A80078BDEB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA8B177B2AB3B5A80078BDEB;
-			remoteInfo = TestesiOS;
-		};
-		FA8B179D2AB3B5AC0078BDEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA8B17742AB3B5A80078BDEB /* Project object */;
 			proxyType = 1;
@@ -46,9 +37,6 @@
 		FA8B178D2AB3B5AB0078BDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8B17922AB3B5AC0078BDEB /* TestesiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestesiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8B17962AB3B5AC0078BDEB /* TestesiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestesiOSTests.swift; sourceTree = "<group>"; };
-		FA8B179C2AB3B5AC0078BDEB /* TestesiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestesiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA8B17A02AB3B5AC0078BDEB /* TestesiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestesiOSUITests.swift; sourceTree = "<group>"; };
-		FA8B17A22AB3B5AC0078BDEB /* TestesiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestesiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA8B17992AB3B5AC0078BDEB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +62,6 @@
 			children = (
 				FA8B177E2AB3B5A80078BDEB /* TestesiOS */,
 				FA8B17952AB3B5AC0078BDEB /* TestesiOSTests */,
-				FA8B179F2AB3B5AC0078BDEB /* TestesiOSUITests */,
 				FA8B177D2AB3B5A80078BDEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +71,6 @@
 			children = (
 				FA8B177C2AB3B5A80078BDEB /* TestesiOS.app */,
 				FA8B17922AB3B5AC0078BDEB /* TestesiOSTests.xctest */,
-				FA8B179C2AB3B5AC0078BDEB /* TestesiOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,15 +95,6 @@
 				FA8B17962AB3B5AC0078BDEB /* TestesiOSTests.swift */,
 			);
 			path = TestesiOSTests;
-			sourceTree = "<group>";
-		};
-		FA8B179F2AB3B5AC0078BDEB /* TestesiOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FA8B17A02AB3B5AC0078BDEB /* TestesiOSUITests.swift */,
-				FA8B17A22AB3B5AC0078BDEB /* TestesiOSUITestsLaunchTests.swift */,
-			);
-			path = TestesiOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +135,6 @@
 			productReference = FA8B17922AB3B5AC0078BDEB /* TestesiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FA8B179B2AB3B5AC0078BDEB /* TestesiOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA8B17AC2AB3B5AC0078BDEB /* Build configuration list for PBXNativeTarget "TestesiOSUITests" */;
-			buildPhases = (
-				FA8B17982AB3B5AC0078BDEB /* Sources */,
-				FA8B17992AB3B5AC0078BDEB /* Frameworks */,
-				FA8B179A2AB3B5AC0078BDEB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA8B179E2AB3B5AC0078BDEB /* PBXTargetDependency */,
-			);
-			name = TestesiOSUITests;
-			productName = TestesiOSUITests;
-			productReference = FA8B179C2AB3B5AC0078BDEB /* TestesiOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +149,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					FA8B17912AB3B5AC0078BDEB = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = FA8B177B2AB3B5A80078BDEB;
-					};
-					FA8B179B2AB3B5AC0078BDEB = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = FA8B177B2AB3B5A80078BDEB;
 					};
@@ -221,7 +169,6 @@
 			targets = (
 				FA8B177B2AB3B5A80078BDEB /* TestesiOS */,
 				FA8B17912AB3B5AC0078BDEB /* TestesiOSTests */,
-				FA8B179B2AB3B5AC0078BDEB /* TestesiOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +185,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FA8B17902AB3B5AC0078BDEB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA8B179A2AB3B5AC0078BDEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,15 +212,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA8B17982AB3B5AC0078BDEB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA8B17A32AB3B5AC0078BDEB /* TestesiOSUITestsLaunchTests.swift in Sources */,
-				FA8B17A12AB3B5AC0078BDEB /* TestesiOSUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +219,6 @@
 			isa = PBXTargetDependency;
 			target = FA8B177B2AB3B5A80078BDEB /* TestesiOS */;
 			targetProxy = FA8B17932AB3B5AC0078BDEB /* PBXContainerItemProxy */;
-		};
-		FA8B179E2AB3B5AC0078BDEB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA8B177B2AB3B5A80078BDEB /* TestesiOS */;
-			targetProxy = FA8B179D2AB3B5AC0078BDEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -445,6 +371,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +383,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,6 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,7 +412,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -528,42 +456,6 @@
 			};
 			name = Release;
 		};
-		FA8B17AD2AB3B5AC0078BDEB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FR8BBNFFSR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.igorfortti.TestesiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TestesiOS;
-			};
-			name = Debug;
-		};
-		FA8B17AE2AB3B5AC0078BDEB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FR8BBNFFSR;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.igorfortti.TestesiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TestesiOS;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,15 +482,6 @@
 			buildConfigurations = (
 				FA8B17AA2AB3B5AC0078BDEB /* Debug */,
 				FA8B17AB2AB3B5AC0078BDEB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA8B17AC2AB3B5AC0078BDEB /* Build configuration list for PBXNativeTarget "TestesiOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA8B17AD2AB3B5AC0078BDEB /* Debug */,
-				FA8B17AE2AB3B5AC0078BDEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
