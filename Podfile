@@ -10,8 +10,8 @@ target 'TestesiOS' do
   target 'TestesiOSTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'Quick'
-    pod 'Nimble'
+    pod 'Quick', '5.0.0'
+    pod 'Nimble', '10.0.0'
   end
 
 end
